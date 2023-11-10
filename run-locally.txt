@@ -1,0 +1,12 @@
+install docker desktop
+
+run docker compose up -d inside /compose folder
+
+run app:
+	mvn spring-boot:run
+
+run test:
+	mvn test
+	
+build jar:
+	mvn install
