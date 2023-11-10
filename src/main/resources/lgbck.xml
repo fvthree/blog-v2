@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/myapp.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- Rotate every 10MB -->
+            <maxFileSize>10MB</maxFileSize>
+            <!-- Keep up to 10 rolled files -->
+            <maxHistory>10</maxHistory>
+            <fileNamePattern>logs/myapp-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date %-5level [%thread] %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>
