@@ -13,6 +13,7 @@
 - Spring Boot 3
 - Spring JDBC
 - Postgres
+- Flyway
 - Docker
 - Docker Compose
 - JUnit 4/5
