@@ -2,11 +2,20 @@
 
 read the txt files in order:
 
-running locally:
-    run-locally.txt
+## running locally:
+    read run-locally.txt
 
-run docker:
-    run-docker.txt
+## run docker:
+    read run-docker.txt
 
-test coverage & code smells check:
-    run-sonar.txt
+## test coverage & code quality check:
+   read run-sonar.txt
+
+## Tools used
+- Spring Boot 3
+- Spring JDBC
+- Postgres
+- Docker
+- Docker Compose
+- JUnit 4/5
+- SonarQube
