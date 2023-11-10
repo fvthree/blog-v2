@@ -1,12 +1,12 @@
 # blogpost
 
-## running locally:
+## try it locally
     read run-locally.txt
 
-## run docker:
+## docker
     read run-docker.txt
 
-## test coverage & code quality check:
+## test coverage and code quality check
    read run-sonar.txt 
 
 ## Tools used
