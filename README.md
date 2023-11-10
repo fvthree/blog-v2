@@ -1,7 +1,5 @@
 # blogpost
 
-read the txt files in order:
-
 ## running locally:
     read run-locally.txt
 
@@ -9,7 +7,7 @@ read the txt files in order:
     read run-docker.txt
 
 ## test coverage & code quality check:
-   read run-sonar.txt
+   read run-sonar.txt 
 
 ## Tools used
 - Spring Boot 3
