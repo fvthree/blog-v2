@@ -1,13 +1,13 @@
 # blogpost
 
-## try it locally
-    read run-locally.txt
+## run locally:
+- read run-locally.txt
 
-## docker
-    read run-docker.txt
+## docker:
+- read run-docker.txt
 
-## test coverage and code quality check
-   read run-sonar.txt 
+## test coverage and code quality check:
+ - read run-sonar.txt 
 
 ## Tools used
 - Spring Boot 3
