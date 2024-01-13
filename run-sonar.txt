@@ -1,0 +1,7 @@
+install sonarqube from sonarqube.org
+
+coverage maven build:
+	goals: clean org.jacoco:jacoco-maven-plugin:prepare-agent install
+	
+sonar build:
+	run in cmd: mvn sonar:sonar -Dsonar.login=admin -Dsonar.password=sonar

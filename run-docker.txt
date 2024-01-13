@@ -1,0 +1,21 @@
+create docker image:
+	docker build -t username/project-name .
+	
+remove docker images:
+	docker rmi -f username/project-name:tag
+	
+show docker images:
+	docker images
+
+docker login:
+	docker login
+
+docker push:
+	docker push username/project-name
+	
+jib-maven plugin:
+	https://stackoverflow.com/questions/46661480/how-to-secure-and-encrypt-setting-xml-paswords-file-in-maven
+	
+	building thru mvn install:
+		mvn clean install jib:build
+
